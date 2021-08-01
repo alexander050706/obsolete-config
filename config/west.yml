@@ -3,11 +3,11 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: stephen     
-      url-base: https://github.com/stephen/zmk.git
+      url-base: https://github.com/stephen
   projects:
     - name: zmk
       remote: stephen
-      revision: stephen/split-encoder
+      revision: split-encoder
       import: app/west.yml
   self:
     path: config
