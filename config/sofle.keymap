@@ -29,7 +29,7 @@
                  &kp LCTRL &kp LGUI &kp LALT &mo 1  &kp RET    &kp SPACE &mo 2  &kp RALT  &kp RGUI  &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
         };
 
         lower_layer {
@@ -59,7 +59,7 @@
 //              |      |       |       |      |      |  |      |      |      |       |      |
             bindings = <
 &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4             &trans    &trans    &trans   &trans    &trans  &kp C_PWR
-&out OUT_TOG &trans     &trans       &kp C_BRI_DN &kp C_BRI_UP &trans                   &kp PG_UP &trans    &kp UP   &trans    &kp N0  &trans
+&out OUT_USB &out OUT_BLE &trans       &kp C_BRI_DN &kp C_BRI_UP &trans                   &kp PG_UP &trans    &kp UP   &trans    &kp N0  &trans
 &ext_power EP_TOG &trans &kp C_PREV   &kp C_PP     &kp C_NEXT   &trans                   &kp PG_DN &kp LEFT  &kp DOWN &kp RIGHT &kp DEL &kp BSPC
 &trans     &trans       &trans       &trans       &trans       &trans  &trans   &trans  &trans    &trans    &trans   &trans    &trans  &trans
                         &trans       &trans       &trans       &trans  &trans   &tog 3  &trans    &trans    &trans   &trans
