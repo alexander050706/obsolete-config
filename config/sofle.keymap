@@ -2,8 +2,21 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+&mt {
+    tapping-term-ms = <400>;
+};
 
 / {
+    combos {
+        compatible = "zmk,combos";
+        combo_caps {
+            timeout-ms = <50>;
+            key-positions = <20 21 22>;
+            bindings = <&kp CAPS>;
+        }
+    }
+
+
     keymap {
         compatible = "zmk,keymap";
 
